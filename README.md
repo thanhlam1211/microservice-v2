@@ -1,10 +1,5 @@
 ## Microservice using Spring Boot technologies and more 🔥
 
-## Pre-requisite for the course
-- Good understanding on Java and Spring concepts
-- Basic understanding on SpringBoot & REST services is a bonus but not mandatory
-- Interest to learn and explore about Microservices
-
 # Important Links
 - Spring Boot - https://spring.io/projects/spring-boot
 - Create SpringBoot project - https://start.spring.io
