@@ -22,7 +22,6 @@ import java.util.Random;
 
 @Service
 @AllArgsConstructor
-@EnableJpaAuditing
 public class AccountServiceImpl implements IAccountsService {
     private AccountRepository accountRepository;
     private CustomerRepository customerRepository;
