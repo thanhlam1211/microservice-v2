@@ -32,6 +32,6 @@ public class BaseEntity {
 
     @LastModifiedBy
     @Column(insertable = false)
-    private String updateBy;
+    private String updatedBy;
 
 }
