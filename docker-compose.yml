@@ -10,3 +10,14 @@ services:
           memory: 700m
     networks:
       - UdemyBank
+  loans:
+    image: "121101/loans-service:s4"
+    container_name: loans-ms
+    ports:
+      - "8090:8090"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - UdemyBank
