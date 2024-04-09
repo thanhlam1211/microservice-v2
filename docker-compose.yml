@@ -1,0 +1,12 @@
+services:
+  accounts:
+    image: "1211/accounts:s4"
+    container_name: accounts-service
+    ports:
+      - "8080:8080"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - UdemyBank
