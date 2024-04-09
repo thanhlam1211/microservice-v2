@@ -32,6 +32,7 @@ services:
           memory: 700m
     networks:
       - UdemyBank
-  networks:
+
+networks:
     UdemyBank:
       driver: "bridge"
