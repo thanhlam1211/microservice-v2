@@ -1,6 +1,6 @@
 services:
   accounts:
-    image: "1211/accounts:s4"
+    image: "121101/accounts:s4"
     container_name: accounts-service
     ports:
       - "8080:8080"
@@ -12,7 +12,7 @@ services:
       - UdemyBank
   loans:
     image: "121101/loans-service:s4"
-    container_name: loans-ms
+    container_name: loans-service
     ports:
       - "8090:8090"
     deploy:
@@ -21,3 +21,17 @@ services:
           memory: 700m
     networks:
       - UdemyBank
+  cards:
+    image: "121101/card-service:s4"
+    container_name: cards-service
+    ports:
+      - "9000:9000"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - UdemyBank
+  networks:
+    UdemyBank:
+      driver: "bridge"
