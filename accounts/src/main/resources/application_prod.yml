@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profiles: "prod"
+
+build:
+  version: "1.0"
+
+accounts:
+  message: "Welcome to UdemyBank accounts related prod APIs "
+  contactDetails:
+    name: "John Sin - Product Owner"
+    email: "Sin@udemy.com"
+  onCallSupport:
+    - (424) 141-1232
+    - (424) 414-2211
