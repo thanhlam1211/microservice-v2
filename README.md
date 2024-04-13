@@ -3,7 +3,7 @@
 # Important Links 
 - Spring Boot - https://spring.io/projects/spring-boot
 - Create SpringBoot project - https://start.spring.io
-- DTO pattern blog - https://martinfowler.com/eaaCatalog/dataTransferObject.html
+- DTO pattern blog - https://martinfowler.com/eaaCatalog/dataTransferObject.html 
 - Model Mapper - http://modelmapper.org/
 - Map Struct - https://mapstruct.org/
 - Spring Doc - https://springdoc.org/
