@@ -19,7 +19,7 @@
 - Spring Cloud website - https://spring.io/projects/spring-cloud
 - Spring Cloud Config website - https://spring.io/projects/spring-cloud-config
 - Spring Cloud Bus website - https://spring.io/projects/spring-cloud-bus
-- RabbitMQ website - https://www.rabbitmq.com
+- RabbitMQ website - https://www.rabbitmq.com 
 - Hookdeck website- https://hookdeck.com
 - Spring Cloud Netflix website - https://spring.io/projects/spring-cloud-netflix
 - Spring Cloud OpenFeign - https://spring.io/projects/spring-cloud-openfeign
