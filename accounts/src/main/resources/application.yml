@@ -4,6 +4,8 @@ server:
 spring:
   application:
     name: "accounts"
+  profiles:
+    active: "prod"
   datasource:
     url: jdbc:h2:mem:testdb
     driverClassName: org.h2.Driver
@@ -17,3 +19,7 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+  config:
+#    optional sẽ cho phép account service vẫn chạy dù nếu không connect dc tới config server,
+#    nếu có các properties phải kết nối được để perform business logic thì bỏ optional đi
+    import: "optional:configserver:http://localhost:8071/"
