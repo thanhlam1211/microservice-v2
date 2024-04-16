@@ -15,22 +15,3 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
-  config:
-    import:
-      - "application_qa.yml"
-      - "application_prod.yml"
-  profiles:
-    active:
-      - "qa"
-#      - "prod"
-build:
-  version: "3.0"
-
-accounts:
-  message: "Welcome to UdemyBank accounts related local APIs "
-  contactDetails:
-    name: "John Doe - Developer"
-    email: "john@udemy.com"
-  onCallSupport:
-    - (555) 555-1234
-    - (555) 523-1345
