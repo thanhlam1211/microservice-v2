@@ -12,9 +12,9 @@ spring:
       server:
         native:
           search-locations: "classpath:/config"
-#         search-locations: "file:///Users//eazybytes//Documents//config"
+#         search-locations: "file:///Users//lambui//Documents//config"
 #        git:
-#          uri: "https://github.com/eazybytes/eazybytes-config.git"
+#          uri: "https://github.com/thanhlam1211/thanhlam1211-config.git"
 #          default-label: main
 #          timeout: 5
 #          clone-on-start: true
@@ -23,7 +23,7 @@ spring:
 #    host: "localhost"
 #    port: 5672
 #    username: "guest"
-#    password: "guest"
+#    password: "guest_"_
 #
 #management:
 #  endpoints:
