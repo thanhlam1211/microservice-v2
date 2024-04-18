@@ -40,5 +40,6 @@ spring:
 #      probes:
 #        enabled: true
 #
-#encrypt:
-#  key: "45D81EC1EF61DF9AD8D3E5BB397F9"
+encrypt:
+#  complex key random, can be any value
+  key: "5F82B5324EEA78672B6D2D89DBDB2"
