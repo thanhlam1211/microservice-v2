@@ -23,6 +23,11 @@ spring:
 #    optional sẽ cho phép account service vẫn chạy dù nếu không connect dc tới config server,
 #    nếu có các properties phải kết nối được để perform business logic thì bỏ optional đi
     import: "optional:configserver:http://localhost:8071/"
+  rabbitmq:
+    host: "localhost"
+    port: 5672
+    username: "guest"
+    password: "guest"
 management:
   endpoint:
     web:
