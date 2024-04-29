@@ -6,7 +6,7 @@
 - DTO pattern blog - https://martinfowler.com/eaaCatalog/dataTransferObject.html 
 - Model Mapper - http://modelmapper.org/
 - Map Struct - https://mapstruct.org/
-- Spring Doc - https://springdoc.org/
+- Spring Doc - https://springdoc.org/ 
 - Open API - https://www.openapis.org/  
 - Lucidchart Blog - https://www.lucidchart.com/blog/ddd-event-storming
 - Docker website - https://www.docker.com
