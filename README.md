@@ -24,7 +24,7 @@
 - Spring Cloud Netflix website - https://spring.io/projects/spring-cloud-netflix
 - Spring Cloud OpenFeign - https://spring.io/projects/spring-cloud-openfeign
 - Netflix Blog - https://netflixtechblog.com/netflix-oss-and-spring-boot-coming-full-circle-4855947713a0
-- Resilience4j website - https://resilience4j.readme.io
+- Resilience4j website - https://resilience4j.readme.io 
 - Spring Cloud Gateway website - https://spring.io/projects/spring-cloud-gateway
 - Stripe RateLimitter pattern blog - https://stripe.com/blog/rate-limiters
 - Apache Benchmark website - https://httpd.apache.org
